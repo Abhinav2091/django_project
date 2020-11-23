@@ -15,3 +15,8 @@ django-admin
 django-admin startproject projectname .
 
 use gitigrone.io site to add ignore file a per the framework
+
+#command to run server
+py manage.py runserver
+
+by default db is sql_lite
