@@ -1,8 +1,8 @@
 #create a virtual env for python command
 py -m venv ./venv   #here .venv is dir path and folder name you want to create the virtual env
 
-#to activate virtual env
-.\venv\Scripts\activate 
+#to activate virtual env in git bash
+source ./venv/Scripts/activate
 
 run activate to activate and deactivate to deactivate
 
@@ -20,3 +20,9 @@ use gitigrone.io site to add ignore file a per the framework
 py manage.py runserver
 
 by default db is sql_lite
+
+create project for static pages
+py manage.py startapp pages
+
+install autopep8
+pip install autopep8
