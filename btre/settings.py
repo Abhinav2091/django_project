@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     #allow django to regonise my pages app
     #also PagesConfig is in apps.py of pages project class name
     'pages.apps.PagesConfig',
+    'listings.apps.ListingsConfig',
+    'realtors.apps.RealtorsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
