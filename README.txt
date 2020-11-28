@@ -26,3 +26,17 @@ py manage.py startapp pages
 
 install autopep8
 pip install autopep8
+
+#use pip for packges needed for db configuration
+pip install psycopg2
+pip install psycopg2-binary
+
+#for default db migrante
+ py manage.py migrate #to chek if db works fine return ok
+ py manage.py makemigrations
+
+ #just to check sql query
+  py manage.py sqlmigrate appname file name that get created after make migrations
+
+  #create super user
+  py manage.py createsuperuser to login into /admin
