@@ -40,3 +40,6 @@ pip install psycopg2-binary
 
   #create super user
   py manage.py createsuperuser to login into /admin
+
+  #install pylint
+  pip install pylint-django
