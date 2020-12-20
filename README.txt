@@ -22,7 +22,7 @@ py manage.py runserver
 by default db is sql_lite
 
 create project for static pages
-py manage.py startapp pages
+py manage.py startapp projetname
 
 install autopep8
 pip install autopep8
@@ -43,3 +43,10 @@ pip install psycopg2-binary
 
   #install pylint
   pip install pylint-django
+
+
+  #django important URls
+  https://docs.djangoproject.com/en/3.1/ref/contrib/messages/
+
+  #to get static file changes reflect else restart the server
+  py manage.py collectstatic
