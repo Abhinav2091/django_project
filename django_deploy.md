@@ -267,7 +267,10 @@ Create a new repo and push to it (you guys know how to do that)
 ### Clone the project into the app folder on your server (Either HTTPS or setup SSH keys)
 
 ```
-# git clone https://github.com/yourgithubname/btre_project.git
+# git clone https://github.com/yourgithubname/django_project.git
+
+i renamed it then to btre_project
+# mv django_project btre_project
 ```
 
 ## Install pip modules from requirements
@@ -275,7 +278,8 @@ Create a new repo and push to it (you guys know how to do that)
 You could manually install each one as well
 
 ```
-# pip install -r requirements.txt
+# pip freeze
+# pip install -r requirements_for_server.txt
 ```
 
 # Local Settings Setup
