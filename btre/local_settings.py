@@ -14,7 +14,7 @@ DATABASES = {
                         'ENGINE': 'django.db.backends.postgresql',
                                 'NAME': 'btre_prod',
                                         'USER':'dbadmin',
-                                                'PASSWORD':'1234!',
+                                                'PASSWORD':'abc123!',
                                                         'HOST':'localhost'
                                                             }
             }
