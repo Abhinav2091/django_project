@@ -330,6 +330,9 @@ python manage.py collectstatic
 # python manage.py runserver 0.0.0.0:8000
 ```
 
+because right now it debug is set to False so our static files are not loaded to test it
+you can either set it to True for now or fallow along
+
 ### Test the site at YOUR_SERVER_IP:8000
 
 Add some data in the admin area
@@ -351,6 +354,8 @@ Add to requirements.txt
 ### Test Gunicorn serve
 
 ```
+btre inner project name
+
 # gunicorn --bind 0.0.0.0:8000 btre.wsgi
 ```
 
